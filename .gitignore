@@ -1,0 +1,22 @@
+# Generated simulation files
+build/
+*.vvp
+*.out
+*.log
+
+# Waveform files
+*.vcd
+*.fst
+*.lxt
+
+# Common SystemVerilog simulator artefacts
+*.dump
+*.wlf
+
+# Temporary editor and OS files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
