@@ -1,19 +1,19 @@
 # 8-bit SystemVerilog ALU
 
-A small, fully combinational 8-bit Arithmetic Logic Unit written in SystemVerilog. The project is designed to demonstrate basic digital logic, binary arithmetic, flags, and self-checking simulation.
+A small, fully combinational 8-bit Arithmetic Logic Unit written in SystemVerilog. The project is designed to demonstrate basic digital logic, binary arithmetic, flags, and self-checking simulation and a few other things i learnt, not completely sure how to structure a read me but we'll try this format for onw.
 
-## What Is an ALU?
+What Is an ALU?
 
 An Arithmetic Logic Unit is a digital circuit that performs arithmetic and logical operations. It is one of the core building blocks inside a processor.
 
-## Supported Operations
+Supported Operations
 
 | Opcode | Operation | Description |
 | --- | --- | --- |
 | `0000` | ADD | `a + b` |
 | `0001` | SUB | `a - b` |
 | `0010` | AND | Bitwise AND |
-| `0011` | OR | Bitwise OR |
+| `0011` | OR | Bitise OR |
 | `0100` | XOR | Bitwise exclusive OR |
 | `0101` | NOT | Bitwise NOT of `a` |
 | `0110` | SHIFT LEFT | Logical left shift of `a` by one bit |
