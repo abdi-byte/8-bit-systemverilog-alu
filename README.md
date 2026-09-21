@@ -1,5 +1,5 @@
-# 8-bit SystemVerilog ALU
 
+8-bit SystemVerilog ALU
 A small, fully combinational 8-bit Arithmetic Logic Unit written in SystemVerilog. The project is designed to demonstrate basic digital logic, binary arithmetic, flags, and self-checking simulation and a few other things i learnt, not completely sure how to structure a read me but we'll try this format for onw.
 
 What Is an ALU?
