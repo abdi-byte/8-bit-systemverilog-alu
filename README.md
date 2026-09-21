@@ -23,15 +23,15 @@ Supported Operations
 
 Unused opcodes produce a zero result and clear all flags.
 
-## Flags
+Flags
 
-- **Zero:** `1` when the final result is zero; otherwise `0`.
-- **Carry:** For addition, this is the unsigned carry-out. For subtraction, it is `1` when no unsigned borrow occurs. For shifts, it is the bit shifted out.
-- **Overflow:** `1` when a signed arithmetic result cannot be represented in 8 bits. It is cleared for logical and comparison operations.
+- zero: `1` when the final result is zero; otherwise `0`.
+- Carry: For addition, this is the unsigned carry-out. For subtraction, it is `1` when no unsigned borrow occurs. For shifts, it is the bit shifted out.
+- Overflow: `1` when a signed arithmetic result cannot be represented in 8 bits. It is cleared for logical and comparison operations.
 
 Signed overflow is different from carry. For example, signed `127 + 1` produces the bit pattern `1000_0000`, which represents `-128` in 8-bit two's complement. The bit pattern wrapped around, so the overflow flag is set.
 
-## Project Structure
+Project Structure
 
 ```text
 src/
@@ -43,12 +43,13 @@ README.md
 Makefile
 ```
 
-## Requirements
+ Requirements
 
 - Icarus Verilog with SystemVerilog support
 - GNU Make
 
-### Installing Icarus Verilog
+
+Installing Icarus Verilog
 
 On Ubuntu or Debian:
 
